@@ -35,53 +35,38 @@ const gato1 = new Gato('Caju', 'feminino');
 gato1.apresentar();
 gato1.falar();
 
-// Exercício 1
-/*
+
 animal1.idade = -5; // Idade inválida
 animal2.idade = 3;
 
+//exercícios
 console.log(`Idade da Frida: ${animal1.idade}`); // Idade da Frida: 0
 console.log(`Idade do Totó: ${animal2.idade}`); // Idade do Totó: 3
-*/
 
-// Exercício 2
-/*
 const ave2 = new Ave('Maria', 'feminino', 100);
 ave2.apresentar();
 ave2.falar();
 ave2.voar();
-*/
 
-// Exercício 3
-/*
 const papagaio2 = new Papagaio('Sininho', 'feminino', 100, 'Papagaio-verdadeiro');
 papagaio2.apresentar();
 papagaio2.falar();
 papagaio2.voar();
-*/
 
-// Exercício 4
-/*
 const mamifero2 = new Mamifero('Cristal', 'feminino', 2);
 mamifero2.apresentar();
 mamifero2.amamentar();
 mamifero2.falar();
-*/
 
-// Exercício 5
-/*
 const cachorro2 = new Cachorro('Bolinha', 'feminino', 2, 'Pitbull');
 cachorro2.apresentar();
 cachorro2.amamentar();
 cachorro2.brincar();
 cachorro2.falar();
-*/
 
-// Exercício 6
-/*
-const gato2 = new Gato('Fadinha', 2, 'feminino', 2, 'Persa');
+const gato2 = new Gato('Fadinha', 'feminino', 2, 'Persa');
 gato2.apresentar();
 gato2.amamentar();
 gato2.ronronar();
 gato2.falar();
-*/
+
